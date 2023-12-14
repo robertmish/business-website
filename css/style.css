@@ -281,3 +281,14 @@ transition: ease-in 1s;
 .onhover img {
 width: 50px;
 }
+
+.submit_message {
+
+}
+.ok_icon {height: 98px;}
+
+.ok_icon img {
+    height: 100%;
+}
+.ok_heading {font-weight: 600;font-size: 30px;}
+.ok_desc {width: 400px;margin-top: 10px;color: green;}
