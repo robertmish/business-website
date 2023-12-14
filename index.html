@@ -6,17 +6,19 @@
     <title>Business Website</title>
     <link rel="stylesheet" href="css/style.css">
     <meta name="description" content="This is a business website">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
+
 <div class="desktop_header">
     <div class="desktop_size">
 <div class="header_wrapper">
 <a href="index.html"><div class="d_logo"><img class="logo_img" src="icons/logo.png" alt=""></div></a>
 <div class="top_menu">
-<div class="h_link"><a href="about.html">About</a></div>
-<div class="h_link"><a href="services.html">Services</a></div>
-<div class="h_link"><a href="clients.html">Clients</a></div>
-<div class="h_link"><a href="contact.html">Contact</a></div>
+<div class="h_link" id="toabout">About</div>
+<div class="h_link" id="toservices">Services</div>
+<div class="h_link" id="toclients">Clients</div>
+<div class="h_link" id="tocontact">Contact</div>
 </div>
 </div>
 
@@ -63,6 +65,7 @@
         <div class="widget_text">
             <div class="w_title">100% Safe</div>
             <div class="w_desc">This is some more description here that is useful</div>
+           
         </div>
     </div>
 
@@ -72,6 +75,7 @@
         <div class="widget_text">
             <div class="w_title">Graduation</div>
             <div class="w_desc">This is some more description here that is useful</div>
+            
         </div>
     </div>
 
@@ -80,6 +84,7 @@
         <div class="widget_text">
             <div class="w_title">24/7 Support</div>
             <div class="w_desc">This is some more description here that is useful</div>
+          
         </div>
     </div>
 
@@ -95,8 +100,8 @@
 <div class="info_section">
     <div class="desktop_size">
 
-<div class="section_title">What we can do for you?</div>
-<div class="section_desc">This is more than others offer</div>
+<div class="section_title">About our company</div>
+<div class="section_desc">Biography and more</div>
 
         <div class="info_wrapper">
 
@@ -123,5 +128,157 @@
     </div>
 </div>
 
+
+<div class="services_section">
+    <div class="desktop_size">
+
+
+        <div class="section_title_black">Services section</div>
+        <div class="section_desc">What services do we offer?</div>
+        
+
+
+
+        <div class="services_wrapper">
+
+
+            <div class="service_widget">
+                <div class="s_w_t">Web Development</div>
+                <div class="s_w_d">We can build your online presence</div>
+                <div class="onhover"><img src="icons/favourite.svg" alt=""></div>
+            </div>
+
+            <div class="service_widget">
+                <div class="s_w_t">Mantainence</div>
+                <div class="s_w_d">We make sure everything works fine</div>
+                <div class="onhover"><img src="icons/favourite.svg" alt=""></div>
+            </div>
+
+            <div class="service_widget">
+                <div class="s_w_t">Marketing</div>
+                <div class="s_w_d">We can help you promote the website</div>
+                <div class="onhover"><img src="icons/favourite.svg" alt=""></div>
+            </div>
+
+            <div class="service_widget">
+                <div class="s_w_t">Customer support</div>
+                <div class="s_w_d">We can support your customers 24/7</div>
+                <div class="onhover"><img src="icons/favourite.svg" alt=""></div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="clients_section">
+    <div class="desktop_size">
+
+
+        <div class="section_title_black">Our clients</div>
+        <div class="section_desc">Learn more about our clients</div>
+        
+
+
+        <div class="clients_wrapper">
+
+<div class="client_logo"><img src="icons/Microsoft_logo.png" alt=""></div>
+<div class="client_logo"><img src="icons/Airbnb_Logo.png" alt=""></div>
+<div class="client_logo"><img src="icons/2560px-Uber_logo_2018.svg.png" alt=""></div>
+<div class="client_logo"><img src="icons/xbox.png" alt=""></div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="contact_section">
+    <div class="desktop_size">
+    <div class="section_title_black">Please reach out to us</div>
+    <div class="section_desc">Chat with us for more info</div>
+    
+
+<div class="contact_wrapper">
+
+<div class="contact_info">
+    <div class="contact_i"><img src="icons/pin.svg" alt="">Street Address of 41/2</div>
+    <div class="contact_i"><img src="icons/telephone-outline.svg" alt="">+1 34234 32423</div>
+    <div class="contact_i"><img src="icons/email.svg" alt="">contact@business.com</div>
+</div>
+
+<div class="contact_form">
+
+    <form action="">
+        <input class="sub_input" type="text" placeholder="Enter your subject">
+        <textarea class="msg_box"></textarea>
+        <input class="send_msg_btn" type="submit" value="Send message">
+    </form>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+</div>
+
+
+
+
+<div class="footer_section">
+    <div class="desktop_size">
+        <div class="footer_wrapper">
+
+
+
+
+
+            <div class="company_info">
+
+<div class="footer_comp_logo"><img src="icons/logo.png" alt=""></div>
+<div class="company_text">We're open for business, reach out any time</div>
+<div class="copyright">@ 2023 - All Rights Reserved</div>
+
+
+            </div>
+
+
+
+
+
+            <div class="footer_widgets">
+                <div class="f_w_b">
+                    <div class="f_w_t">Company</div>
+                    <div class="f_w_l">About</div>
+                    <div class="f_w_l">Partners</div>
+                    <div class="f_w_l">Investors</div>
+                </div>
+
+                <div class="f_w_b">
+                    <div class="f_w_t">Resources</div>
+                    <div class="f_w_l">Tools</div>
+                    <div class="f_w_l">Blog</div>
+                    <div class="f_w_l">Info</div>
+                </div>
+
+                <div class="f_w_b">
+                    <div class="f_w_t">More</div>
+                    <div class="f_w_l">FAQ</div>
+                    <div class="f_w_l">Terms</div>
+                    <div class="f_w_l">Privacy policy</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
 </body>
 </html>

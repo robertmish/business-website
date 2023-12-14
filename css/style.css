@@ -57,6 +57,7 @@ transition: 0.5s;
 
 .h_link:hover {
     color:grey;
+    cursor: pointer;
 }
 
 
@@ -116,6 +117,7 @@ height: 400px;
 .info_section {padding-top: 100px;padding-bottom: 100px;background: #000;}
 
 .section_title {font-size: 42px;text-align: center;font-weight: 600;color: #faefc6;}
+.section_title_black {font-size: 42px;text-align: center;font-weight: 600;color: #000000;}
 .section_desc {
 text-align: center;
 font-size: 17px;
@@ -146,3 +148,136 @@ width: 40%;
     
 }
 
+.services_section {padding-top: 100px;padding-bottom: 100px;}
+
+.services_wrapper {display: flex;justify-content: space-between;flex-flow: wrap;margin-top: 79px;}
+
+.service_widget {width: 41%;height: 159px;margin-bottom: 113px;text-align: center;border: 1px solid #dedede;padding: 20px;padding-top: 108px;box-shadow: 0px 0px 33px -10px #555;transition: 0.5s;border-radius: 20px;}
+
+
+
+.service_widget:hover {
+    box-shadow: 0px 0px 33px 3px #555;
+}
+
+.service_widget:hover .onhover {
+    display: block;
+}
+.s_w_t {font-size: 22px;margin-bottom: 10px;cursor: pointer;}
+.s_w_d {
+    
+}
+
+.clients_section {padding-top: 111px;padding-bottom: 100px;background: linear-gradient(356deg, #e2e8ff, #cdedea);}
+
+.clients_wrapper {display: flex;justify-content: space-between;margin-top: 119px;}
+
+.client_logo {
+    height: 53px;
+}
+
+.client_logo img {
+    height: 100%;
+}
+
+.contact_section {
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+
+.contact_wrapper {display: flex;margin-top: 60px;}
+
+.contact_form {width: 60%;}
+
+.contact_info {width: 40%;}
+.contact_i {display: flex;align-items: center;font-size: 20px;margin-bottom: 20px;}
+
+.contact_i img {height: 17px;margin-right: 5px;}
+
+.sub_input {width: -webkit-fill-available;padding: 10px;font-size: 19px;margin-bottom: 20px;}
+.msg_box {
+    width: -webkit-fill-available;
+    height: 195px;
+    padding: 15px;
+    font-size: 19px;
+    resize: none;
+}
+.send_msg_btn {
+    border: 1px solid #dedede;
+    width: -webkit-fill-available;
+    padding: 10px;
+    font-size: 22px;
+    background: #444;
+    color: #ffff;
+    border-radius: 9px;
+}
+
+
+.footer_section {
+padding-top: 60px;
+padding-bottom: 100px;
+background-color: #000;
+}
+
+.footer_wrapper {
+margin-top: 100px;
+display: flex;
+justify-content: space-between;
+}
+.company_info {
+width: 40%;
+}
+.footer_widgets {
+width: 60%;
+display: flex;
+justify-content: space-between;
+}
+.f_w_b {
+    width: 16%;
+}
+.f_w_t {
+    font-size: 22px;
+    font-weight: 600;
+    color:#fff;
+    margin-bottom: 20px;
+}
+
+.f_w_l {
+color:#fff;
+transition: 1s;
+margin-bottom: 7px;
+}
+
+.f_w_l:hover {
+color:#999;
+}
+
+.footer_comp_logo {
+    height: 50px;
+}
+
+.footer_comp_logo img {
+    height: 100%;
+}
+.company_text {
+    margin-top: 20px;
+    font-size: 18px;
+    color:#999;
+}
+.copyright {
+margin-top: 10px;
+color:#fff;
+font-size: 14px;
+}
+
+.onhover {
+display: none;
+width: 50px;
+margin: 0 auto;
+margin-top: 20px;
+transition: ease-in 1s;
+}
+.onhover img {
+width: 50px;
+}
